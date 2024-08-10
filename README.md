@@ -1,2 +1,2 @@
 # nslokup
-ASP.NET Core 8.0 NSLookup
+ASP.NET Core 8.0 NsLookupSample
