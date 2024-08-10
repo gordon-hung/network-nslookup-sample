@@ -1,0 +1,6 @@
+@NsLookupSample_HostAddress = http://localhost:5166
+
+GET {{NsLookupSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
