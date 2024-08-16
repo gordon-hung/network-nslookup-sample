@@ -13,12 +13,10 @@ public class InfoController : ControllerBase
 	/// <summary>
 	/// Gets the asynchronous.
 	/// </summary>
-	/// <param name="configuration">The configuration.</param>
-	/// <param name="_hostingEnvironment">The hosting environment.</param>
+	/// <param name="webHostEnvironment">The web host environment.</param>
 	/// <returns></returns>
 	[HttpGet]
 	public async Task<object> GetAsync(
-		[FromServices] IConfiguration configuration,
 		[FromServices] IWebHostEnvironment webHostEnvironment)
 	{
 		var hostName = Dns.GetHostName();
